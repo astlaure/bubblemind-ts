@@ -18,6 +18,7 @@ export interface ContentColumn {
 }
 
 export interface Content {
+  modelName: string;
   tableName: string;
   columns: ContentColumn[];
 }
