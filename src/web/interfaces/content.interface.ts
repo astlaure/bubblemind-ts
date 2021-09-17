@@ -9,8 +9,10 @@ export interface ContentNumberOption {
 }
 
 export interface ContentColumn {
-  type: 'STRING';
+  type: 'STRING' | 'BIGINT';
   name: string;
+  primaryKey: boolean;
+  autoIncrement: boolean;
   length: ContentNumberOption;
   defaultValue: ContentStringOption;
   allowNull: boolean;
