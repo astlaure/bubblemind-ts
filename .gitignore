@@ -1,0 +1,13 @@
+/.idea
+/.vscode
+
+/dist
+/node_modules
+/public
+/storage/coverage
+/storage/logs
+/storage/sessions
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+
+.env
